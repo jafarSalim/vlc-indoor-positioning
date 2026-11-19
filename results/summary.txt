@@ -1,0 +1,19 @@
+Received LOS power -17.2 to -12.8 dBm; per-LED SNR 22.7 to 55.9 dB; reflections/direct min 0.097 median 0.191 max 0.440
+Errors (direct only) [mean median p90] cm:
+  RSS trilateration          [3.85 2.45 8.86]
+  RSS maximum likelihood     [0.995 0.694 1.99]
+  AOA (1 deg sensor)         [4.1 3.82 7.02]
+  Fingerprint k-NN (k = 4)   [1.91 1.37 4.17]
+Errors (with reflections) [mean median p90] cm:
+  RSS trilateration          [31.9 26.3 67.2]
+  RSS maximum likelihood     [29.7 32.1 50.5]
+  AOA (1 deg sensor)         [4.1 3.8 7.12]
+  Fingerprint k-NN (k = 4)   [2.02 1.24 4.41]
+CRLB [mean median max] cm: [1.19 0.904 5.37]
+Power sweep [Pt lls ml crlb] (m):
+[0.05 1.52 1.17 0.584;0.1 0.882 0.587 0.292;0.2 0.454 0.197 0.146;0.5 0.203 0.0579 0.0584;1 0.111 0.0295 0.0292;2 0.0549 0.0146 0.0146;5 0.0231 0.00593 0.00585;10 0.0117 0.00294 0.00293]
+Tilt [0 2 5 10 15 20] deg -> RMSE [lls ml knn] m:
+[0.0539 0.0153 0.0258;0.0896 0.0398 0.0547;0.188 0.0943 0.13;0.548 0.316 0.459;1.16 0.706 0.959;1.62 1.11 1.37]
+Height error [-0.2 -0.1 -0.05 0 0.05 0.1 0.2] m -> RMSE [lls ml knn] m:
+[0.179 0.242 0.0662;0.106 0.128 0.0438;0.0704 0.0649 0.0314;0.0559 0.0151 0.0258;0.0737 0.0602 0.0337;0.109 0.114 0.0475;0.191 0.217 0.0828]
+Run time: 607 s
